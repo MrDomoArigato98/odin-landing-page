@@ -35,51 +35,44 @@ body{
 .signup{
     display:flex;
     justify-content: space-around;
-    padding: 20px;
-    align-items: center;
-    color: #f9faf8;
-    /* border:2px solid red; */
     
+    padding: 20px;
+    color: #f9faf8;
     padding-bottom: 100px;
 }
+
+.signup-text{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
 .signup-text button{
     display:flex;
-    padding:5px;
-    padding-left: 25px;
-    padding-right: 25px;
     background-color: #3882F6;
     color: #f9faf8;
     font-size:18px;
-    text-align: center;
     border: none;
     border-radius: 5px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
+    padding: 8px 32px;
     border: 1px solid black;
 }
-.signup-text{
-    align-content: flex-end;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 400px;
-    height: 300px;
-    /* border:2px solid red; */
-    
+
+.signup p{
+    margin-top: 5px;
+
 }
 .signup-text h1{
-    display:flex;
+    margin:0;
     font-size: 48px;
     color: #f9faf8;
-    /* border:2px solid white; */
 }
-.signup-text p{
-    display:flex;
-    /* border:2px solid white; */
-}
+
 .signupimg{
     display:flex;
     width: auto;
     height: 300px;
-    border: 1px solid black;
+
 }
