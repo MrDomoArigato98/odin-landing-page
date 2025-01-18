@@ -131,3 +131,19 @@ body{
     padding-top: 5px;
     color: #263242;
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    height:450px;
+}
+.quote a{
+    width: 800px;
+    border: 2px solid black;
+    color: #1F2937;
+    align-self: center;
+    font-style: italic;
+    font-size: 36px;
+}
