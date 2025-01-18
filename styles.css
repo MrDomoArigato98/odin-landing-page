@@ -159,3 +159,44 @@ body{
     font-weight: bold;
     align-self: flex-end;
 }
+
+/* footer */
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    height: 450px;
+}
+
+.signupbox{
+    display: flex;
+    background-color: #3882F6;
+    height: 100px;
+    width: 1000px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.signupbox .text{
+    display:flex;
+    width:400px;
+    flex-direction: column;
+    color: #f9faf8;
+}
+
+.action{
+    font-weight: bold;   
+    margin-bottom: 5px;
+}
+
+.signupbox button{
+    display:flex;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    font-size:14px;
+    border: none;
+    padding: 4px 32px;
+    border: 2px solid white;
+}
