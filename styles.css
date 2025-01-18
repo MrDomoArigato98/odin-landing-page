@@ -132,18 +132,30 @@ body{
     color: #263242;
 }
 
-.quote{
+/* Quote begins here with grey background */
+.quotecontainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
     height:450px;
 }
-.quote a{
+
+.quote{
+    display:flex;
     width: 800px;
-    border: 2px solid black;
     color: #1F2937;
     align-self: center;
     font-style: italic;
     font-size: 36px;
+}
+
+.signature{
+    /* border: 2px solid black; */
+    margin-top:20px;
+    display:flex;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: flex-end;
 }
