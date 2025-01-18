@@ -172,7 +172,7 @@ body{
 .signupbox{
     display: flex;
     background-color: #3882F6;
-    height: 100px;
+    height:125px;
     width: 1000px;
     border-radius: 10px;
     justify-content: space-around;
@@ -181,6 +181,7 @@ body{
 .signupbox .text{
     display:flex;
     width:400px;
+    
     flex-direction: column;
     color: #f9faf8;
 }
